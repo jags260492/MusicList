@@ -79,5 +79,18 @@
     right: 10px;
 }
 .FriendsListSection{
-  
+
+}
+.pagination{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.page{
+  background: #ececec;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin: 2px;
 }

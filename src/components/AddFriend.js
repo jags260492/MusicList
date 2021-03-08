@@ -4,7 +4,7 @@ const AddFriend = (props) => {
 
   return (
     <div className="inputWrapper"> 
-      <input placeholder="Add a new friend" pattern="[A-Za-z]" className="addbar" onKeyPress={(event) => props.enterPressed(event)} />
+      <input placeholder="Add a new friend" className="addbar" onKeyPress={(event) => props.enterPressed(event)} />
     </div>
   )
 }
