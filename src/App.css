@@ -21,11 +21,13 @@
 }
 .listWrapper{
   display: flex;
-  padding: 0 16px;
+  padding: 16px;
   background: #ececec;
   margin-bottom: 4px;
 }
-
+.musicImage{
+  margin-right: 20px;
+}
 .actionBtn{
   width: 30px;
   height: 30px;
@@ -43,6 +45,7 @@
 }
 .heading{
   flex-basis: 80%;
+  margin: 0;
 }
 .searchbar{
   width: -webkit-fill-available;
@@ -72,6 +75,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  overflow: visible;
 }
 .searchIcon{
   position: absolute;
@@ -93,4 +97,54 @@
     margin-bottom: 5px;
     cursor: pointer;
     margin: 2px;
+}
+
+
+ /* select */
+.multiselect {
+  width: 100px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  font-weight: bold;
+  height: 35px;
+  background: transparent;
+  color: #ececec;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 13px;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  position: absolute;
+    z-index: 111;
+    background: rgb(19, 135, 168);
+    box-shadow: 0 0 12px #ccc;
+    width: 120px;
+}
+
+#checkboxes label {
+  display: block;
+  font-size: 14px;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+.highlight{
+  background: tan
 }

@@ -4,8 +4,8 @@ import SearchBar from "./Search";
 
 const Header = (props) => (
 <div className="Header">
-<div> Friends List</div>
-<SearchBar search={props.search} />
+<div> Music List</div>
+<SearchBar search={props.search} addTofilter={props.addTofilter} />
 
  </div>
 )
